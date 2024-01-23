@@ -1,0 +1,15 @@
+body {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .extension-frame {
+      width: 340px;
+      height: 670px;
+      background-color: #1F1F1F;
+      padding: 20px; 
+      box-sizing: border-box;
+      color: #FFFFFF; 
+      font-family: Arial, sans-serif; 
+    }
+    

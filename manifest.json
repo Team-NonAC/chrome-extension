@@ -1,0 +1,23 @@
+{
+      "manifest_version": 3,
+      "name": "Your Chrome Extension",
+      "version": "1.0",
+      "description": "Description of your Chrome extension",
+      "permissions": [
+        "activeTab"
+      ],
+      "action": {
+           
+            "default_title": "NON AC",
+            "default_popup": "popup.html"
+            
+              
+         
+          
+      },
+      "permissions": [
+        "activeTab"
+      ],
+      "version": "1.0"
+    }
+    
