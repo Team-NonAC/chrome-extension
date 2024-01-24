@@ -1,70 +1,70 @@
-/* styles.css */
+      /* styles.css */
 
-/* Copyright © Aksham */
-body {
-      margin: 0;
-      padding: 0;
-    }
-    
-    .extension-frame {
-      width: 340px;
-      height: 700px;
-      background-color: #1F1F1F;
-      padding: 20px;
-      box-sizing: border-box;
-      color: #FFFFFF;
-      font-family: Arial, sans-serif;
-      text-align: center; /* Center text */
-    }
-    
-    .heading {
-      font-size: 20px;
-      margin-top: 0; /* Remove default margin for h1 */
-    }
-    
-    .reset-button {
-      background-color: #3498db; /* Button color */
-      color: #FFFFFF; /* Text color */
-      padding: 10px 20px; /* Adjust padding as needed */
-      font-size: 16px;
-      border: none;
-      cursor: pointer;
-      margin-top: 10px; /* Add spacing between heading and button */
-    }
-    
-    .card-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around; /* Adjusted to space around */
-      margin-top: 20px;
-    }
-    
-    .card, .centered-card {
-      width: 120px; /* Adjust width */
-      height: 124px; /* Adjust height */
-      border-radius: 15px;
-      background-color: #2C3E50; /* Adjust card background color */
-      margin-bottom: 15px; 
-      padding: 10px; /* Add padding for icon and text */
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-    }
-    
-    .card img, .centered-card img {
-      width: 80px; /* Adjust icon width */
-      height: 80px; /* Adjust icon height */
-      object-fit: contain;
-    }
-    
-    .card p, .centered-card p {
-      margin: 0;
-      font-size: 14px; /* Adjust text font size */
-    }
-    
-    .centered-card {
-      margin: 0 auto; /* Center the card */
-    }
-    
+      /* Copyright © Aksham */
+      body {
+            margin: 0;
+            padding: 0;
+      }
+      
+      .extension-frame {
+            width: 340px;
+            height: 700px;
+            background-color: #1F1F1F;
+            padding: 20px;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            font-family: Arial, sans-serif;
+            text-align: center; /* Center text */
+      }
+      
+      .heading {
+            font-size: 20px;
+            margin-top: 0; /* Remove default margin for h1 */
+      }
+      
+      .reset-button {
+            background-color: #3498db; /* Button color */
+            color: #FFFFFF; /* Text color */
+            padding: 10px 20px; /* Adjust padding as needed */
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px; /* Add spacing between heading and button */
+      }
+      
+      .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around; /* Adjusted to space around */
+            margin-top: 20px;
+      }
+      
+      .card, .centered-card {
+            width: 120px; /* Adjust width */
+            height: 124px; /* Adjust height */
+            border-radius: 15px;
+            background-color: #2C3E50; /* Adjust card background color */
+            margin-bottom: 15px; 
+            padding: 10px; /* Add padding for icon and text */
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+      }
+      
+      .card img, .centered-card img {
+            width: 80px; /* Adjust icon width */
+            height: 80px; /* Adjust icon height */
+            object-fit: contain;
+      }
+      
+      .card p, .centered-card p {
+            margin: 0;
+            font-size: 14px; /* Adjust text font size */
+      }
+      
+      .centered-card {
+            margin: 0 auto; /* Center the card */
+      }
+      

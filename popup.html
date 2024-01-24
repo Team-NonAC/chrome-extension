@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <title>Non AC</title>
+  <script src="popup.js" defer></script>
 </head>
 <body>
   <!-- Copyright © Aksham -->
@@ -16,23 +17,23 @@
     <button class="reset-button">Reset Default</button>
     
     <div class="card-container">
-      <div class="card">
-        <img src="contrast.svg.png" alt="Icon 1">
-        <p>Contrast</p>
-      </div>
-      <div class="card">
+      <div class="card" id="contrast-card">
+            <img src="contrast.svg.png" alt="Contrast Icon">
+            <p>Contrast</p>
+          </div>
+      <div class="card" id ="highlight-links">
         <img src="link.svg.png" alt="Icon 2">
         <p>Highlight Link</p>
       </div>
-      <div class="card">
+      <div class="card" id="increase-font">
         <img src="increasefont.svg.png" alt="Icon 3">
         <p>Bigger Text</p>
       </div>
-      <div class="card">
+      <div class="card" id="stop-animation-card">
         <img src="stopanim.svg.png" alt="Icon 4">
         <p>Pause Animation</p>
       </div>
-      <div class="card">
+      <div class="card" id="remove-images">
         <img src="camera.svg.png" alt="Icon 5">
         <p>Remove Images</p>
       </div>
@@ -42,7 +43,7 @@
       </div>
       <div class="centered-card">
         <img src="line.svg.png" alt="Icon 7">
-        <p>Text 7</p>
+        <p>increase line height</p>
       </div>
     </div>
     
